@@ -12,6 +12,7 @@ nav ul li {
   font-size: 24px;
   padding: 0 10px;
   border: 1px solid black;
+  /* This line is redundant if you are setting the border for all 4 sides in the line above. */
   border-bottom: 1px solid black;
 }
 

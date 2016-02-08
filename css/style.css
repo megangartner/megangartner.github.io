@@ -1,5 +1,12 @@
 body {
 	color: green;
+    /* The background image is relative to where this CSS file is.  This declaration is telling your 
+     * CSS file to look for the background image in a folder called images inside of this css folder.
+     * You need to tell the declaration to go back out 1 directory and find the images folder there, 
+     * like this:
+     *
+     *     background-image: url('../images/seamless_paper_texture.png');
+     */
 	background-image: url(images/seamless_paper_texture.png);
   	background-repeat:repeat;
   	font: helvetica;
@@ -20,6 +27,17 @@ nav ul li {
 /*I'm trying to get tabs that look like this 
 https://css-tricks.com/better-tabs-ith-round-out-borders/, but I don't really
 understand the Pseudo-elements that they're talking about*/
+
+/* Do you want the buttons to look more like tabs or to have rounded corners?  Tabs are pretty hard, but
+ * rounded corners are easier.  You can use the "border-radius" property for that:
+ *
+ *     border-radius: 5px; 
+ *
+ * You can play around with the value; the larger the number, the rounder the corner.
+ *
+ * Pseudo-elements are harder and I may not be able to get to them in class, but this is a great article on them:
+ * https://www.smashingmagazine.com/2011/07/learning-to-use-the-before-and-after-pseudo-elements-in-css/
+ */
 
  nav {
  	padding-top: 10px;
