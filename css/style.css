@@ -1,5 +1,6 @@
 body {
 	color: green;
+<<<<<<< HEAD
     /* The background image is relative to where this CSS file is.  This declaration is telling your 
      * CSS file to look for the background image in a folder called images inside of this css folder.
      * You need to tell the declaration to go back out 1 directory and find the images folder there, 
@@ -9,21 +10,13 @@ body {
      */
 	background-image: url(images/seamless_paper_texture.png);
   	background-repeat:repeat;
+=======
+>>>>>>> megangartner/master
   	font: helvetica;
 }
 
 /*I haven't figured out why this background isnt working yet*/
 
-
-
-nav ul li {
-  display: inline-block;
-  margin: 0 10px;
-  font-size: 24px;
-  padding: 0 10px;
-  border: 1px solid black;
-  border-bottom: 1px solid black;
-}
 /*I'm trying to get tabs that look like this 
 https://css-tricks.com/better-tabs-ith-round-out-borders/, but I don't really
 understand the Pseudo-elements that they're talking about*/
@@ -41,6 +34,7 @@ understand the Pseudo-elements that they're talking about*/
 
  nav {
  	padding-top: 10px;
+  display: inline-block;
  }
 
 header {
@@ -88,5 +82,61 @@ header {
  	margin-top: 50px;
  }
 
+#tabs {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
 
+#tabs li {
+  float: left;
+  display: block;
+  background: #4B4B4B;
+  position: relative;
+  z-index: 500;
+  margin: 0 1px;
+}
 
+#tabs li a {
+  display: block;
+  padding: 6px 5px 0 5px;
+  font-weight: 700;
+  height: 20px;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+}
+
+#tabs ul {
+  position: absolute;
+  left: 0;
+  display: none;
+  margin: 0 0 0 -1px;
+  padding: 0;
+  list-style: none;
+}
+
+#tabs ul li {
+  float: left;
+  border-top: 1px solid #fff;
+  width: 100%;
+  white-space: nowrap;
+}
+
+#tabs ul a {
+  display: block;
+  height: 15px;
+  padding:  6px 5px;
+  color: #fff;
+  text-align: left;
+}
+
+#nav a:hover {
+  text-decoration: none;
+  background-color: #F86808;
+}
+
+#tabs .done {
+  color: #ccc;
+  text-decoration: line-through;
+}
