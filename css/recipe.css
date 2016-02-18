@@ -58,6 +58,11 @@ h4 {
   background-color: #ffffe5;
  }
 
+/* 
+  These margins are preventing your #about and #ingredients blocks from floating
+  next to each other, at least on my laptop screen.  Try reducing these margins - they
+  should probably be closer to 20 than 100-200.
+*/
  #ingredients {
   margin-left: 250px;
   margin-right: 155px;
