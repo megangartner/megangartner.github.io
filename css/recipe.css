@@ -1,32 +1,36 @@
 body {
-	color: green;
-  font: Lucida;
+  color: #669999;
+  background-image: url('../images/seamless_paper_texture.png');
+  background-repeat:repeat;
+  font-family: 'Handlee', cursive;
 }
 
-
-nav {
- 	padding-top: 10px;
+ nav {
+  padding-top: 10px;
   display: inline-block;
  }
 
-
 header {
-	text-align: center;
-	margin-top: 50px;
-	background-color: #ffffe5;
-	margin-right: 155px;
-	margin-left: 160px;
-	margin-bottom: 50px;
+  text-align: center;
+  margin-top: 50px;
+  margin-right: 155px;
+  margin-left: 160px;
+  outline: solid black 2px;
+  padding: 5px;
+
 }
  
 header h1{
+  font-size: 48px;
+  font-weight: bold;
+ }
+ 
+header h1{
  	font-size: 48px;
- 	font-weight: bold;
  }
 
 h2{ 
  	font-size: 30px;
- 	font-weight: bold;
  	padding-top: 25px;
  	padding-bottom: 25px;
  }
@@ -34,15 +38,18 @@ h2{
 h3 {
 	text-align: center;
 	font-size: 24px;
-	color: green;
 	padding-bottom: 50px;
+  padding-top: 50px;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 h4 {
 	text-align: center;
- 	font-weight: bold;
  	font-style: underline;
  	font-size: 18px;
+  font-weight: bold;
+  padding-top: 10px;
  }
 
 
@@ -53,30 +60,40 @@ h4 {
 #about, #ingredients {
 	float: left;
  	font-size: 14px;
- 	color: green;
- 	width: 350px;
- 	background-color: #ffffe5;
  }
 
  #ingredients {
- 	margin-left: 250px;
- 	margin-right: 155px;
+  width:30%;
+ 	margin-left: 15%;
+ 	margin-right: 10%;
 
  }
 
 #about {
-	margin-left: 160px;
+  width:30%;
+	margin-left: 15%;
+  margin-top:7%;
 }
 
+#about p {
+  padding: 3px;
+}
+
+#about img{
+  width:100%;
+}
 
 #instructions {
-	clear:both;
-	width:500px;
+	clear:right;
+	width:30%;
 	text-align: left;
-	float:left;
-	background-color: #ffffe5;
-	margin-left: 410px;
+	float:right;
+	margin-right: 10%;
 	margin-top: 20px;
+}
+
+span {
+  margin-bottom: 15px;
 }
 
 #tabs {
@@ -92,16 +109,20 @@ h4 {
   position: relative;
   z-index: 500;
   margin: 0 1px;
+  padding: 3px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
 }
 
 #tabs li a {
   display: block;
-  padding: 6px 5px 0 5px;
+  padding: 5px 6px 0 6px;
   font-weight: 700;
   height: 20px;
   text-decoration: none;
   color: #fff;
   text-align: center;
+  font-size: 16px;
 }
 
 #tabs ul {
@@ -118,19 +139,23 @@ h4 {
   border-top: 1px solid #fff;
   width: 100%;
   white-space: nowrap;
+  padding: 5px;
 }
 
 #tabs ul a {
   display: block;
   height: 15px;
-  padding:  6px 5px;
+  padding:  10px;
   color: #fff;
-  text-align: left;
+  text-align: center;
+  font-size: 14px;
 }
 
 #nav a:hover {
   text-decoration: none;
-  background-color: #F86808;
+  background-color: gray;
+  float:left;
+  position: relative;
 }
 
 #instructions .item {

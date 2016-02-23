@@ -8,7 +8,7 @@ $(document).ready(function () {
         $('ul', this).hide();
     });
 
-$('#instructions').on('click', crossout);
+$("input").on('click', crossout);
 
 
 function crossout() {
