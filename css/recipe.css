@@ -50,6 +50,7 @@ h4 {
  	font-size: 18px;
   font-weight: bold;
   padding-top: 10px;
+  padding-bottom: 10px;
  }
 
 
@@ -59,7 +60,7 @@ h4 {
 
 #about, #ingredients {
 	float: left;
- 	font-size: 14px;
+ 	font-size: 16px;
  }
 
  #ingredients {
@@ -92,9 +93,23 @@ h4 {
 	margin-top: 20px;
 }
 
-#instructions input {
-  margin-bottom: 15px;
+form{
+  float:left;
+  width:100%;
 }
+
+span {
+  float:left;
+  width:90%;
+  margin-bottom:10px;
+}
+
+input {
+  float:left;
+  width:5%;
+  margin-bottom:10px;
+}
+
 
 #tabs {
   margin: 0;
