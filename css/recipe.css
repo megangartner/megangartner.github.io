@@ -1,115 +1,88 @@
 body {
-  color: #669999;
-  background-image: url('../images/seamless_paper_texture.png');
-  background-repeat:repeat;
-  font-family: 'Handlee', cursive;
+  color: green;
+  font: Lucida;
 }
 
- nav {
+
+nav {
   padding-top: 10px;
   display: inline-block;
  }
 
+
 header {
   text-align: center;
   margin-top: 50px;
+  background-color: #ffffe5;
   margin-right: 155px;
   margin-left: 160px;
-  outline: solid black 2px;
-  padding: 5px;
-
+  margin-bottom: 50px;
 }
  
 header h1{
   font-size: 48px;
   font-weight: bold;
  }
- 
-header h1{
- 	font-size: 48px;
- }
 
 h2{ 
- 	font-size: 30px;
- 	padding-top: 25px;
- 	padding-bottom: 25px;
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 25px;
+  padding-bottom: 25px;
  }
 
 h3 {
-	text-align: center;
-	font-size: 24px;
-	padding-bottom: 50px;
-  padding-top: 50px;
-  font-weight: bold;
-  text-decoration: underline;
+  text-align: center;
+  font-size: 24px;
+  color: green;
+  padding-bottom: 50px;
 }
 
 h4 {
-	text-align: center;
- 	font-style: underline;
- 	font-size: 18px;
+  text-align: center;
   font-weight: bold;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  font-style: underline;
+  font-size: 18px;
  }
 
 
 #ingredients li {
-	padding: 10px;
+  padding: 10px;
 }
 
 #about, #ingredients {
-	float: left;
- 	font-size: 16px;
+  float: left;
+  font-size: 14px;
+  color: green;
+  width: 350px;
+  background-color: #ffffe5;
  }
 
+/* 
+  These margins are preventing your #about and #ingredients blocks from floating
+  next to each other, at least on my laptop screen.  Try reducing these margins - they
+  should probably be closer to 20 than 100-200.
+*/
  #ingredients {
-  width:30%;
- 	margin-left: 15%;
- 	margin-right: 10%;
+  margin-left: 250px;
+  margin-right: 155px;
 
  }
 
 #about {
-  width:30%;
-	margin-left: 15%;
-  margin-top:7%;
+  margin-left: 160px;
 }
 
-#about p {
-  padding: 3px;
-}
-
-#about img{
-  width:100%;
-}
 
 #instructions {
-	clear:right;
-	width:30%;
-	text-align: left;
-	float:right;
-	margin-right: 10%;
-	margin-top: 20px;
-}
-
-form{
+  clear:both;
+  width:500px;
+  text-align: left;
   float:left;
-  width:100%;
+  background-color: #ffffe5;
+  margin-left: 410px;
+  margin-top: 20px;
 }
-
-span {
-  float:left;
-  width:90%;
-  margin-bottom:10px;
-}
-
-input {
-  float:left;
-  width:5%;
-  margin-bottom:10px;
-}
-
 
 #tabs {
   margin: 0;
@@ -124,20 +97,16 @@ input {
   position: relative;
   z-index: 500;
   margin: 0 1px;
-  padding: 3px;
-  border-top-right-radius: 5px;
-  border-top-left-radius: 5px;
 }
 
 #tabs li a {
   display: block;
-  padding: 5px 6px 0 6px;
+  padding: 6px 5px 0 5px;
   font-weight: 700;
   height: 20px;
   text-decoration: none;
   color: #fff;
   text-align: center;
-  font-size: 16px;
 }
 
 #tabs ul {
@@ -154,23 +123,19 @@ input {
   border-top: 1px solid #fff;
   width: 100%;
   white-space: nowrap;
-  padding: 5px;
 }
 
 #tabs ul a {
   display: block;
   height: 15px;
-  padding:  10px;
+  padding:  6px 5px;
   color: #fff;
-  text-align: center;
-  font-size: 14px;
+  text-align: left;
 }
 
 #nav a:hover {
   text-decoration: none;
-  background-color: gray;
-  float:left;
-  position: relative;
+  background-color: #F86808;
 }
 
 #instructions .item {
@@ -185,4 +150,3 @@ input {
 .done:checked + span{
   text-decoration:line-through
 }
-
