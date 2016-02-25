@@ -12,6 +12,7 @@ $(document).ready(function () {
         $('ul', this).hide();
     });
 
+<<<<<<< HEAD
 /*
     This click event is crossing everything out any time the user
     clicks anywhere inside the form (which has that ID of #instructions). 
@@ -22,6 +23,9 @@ $(document).ready(function () {
 */
 
 $('#instructions').on('click', crossout);
+=======
+$("input").on('click', crossout);
+>>>>>>> megangartner/master
 
 
 function crossout() {

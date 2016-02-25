@@ -1,27 +1,45 @@
 body {
+<<<<<<< HEAD
   color: green;
   font: Lucida;
 }
 
 
 nav {
+=======
+  color: #669999;
+  background-image: url('../images/seamless_paper_texture.png');
+  background-repeat:repeat;
+  font-family: 'Handlee', cursive;
+}
+
+ nav {
+>>>>>>> megangartner/master
   padding-top: 10px;
   display: inline-block;
  }
 
-
 header {
   text-align: center;
   margin-top: 50px;
+<<<<<<< HEAD
   background-color: #ffffe5;
   margin-right: 155px;
   margin-left: 160px;
   margin-bottom: 50px;
+=======
+  margin-right: 155px;
+  margin-left: 160px;
+  outline: solid black 2px;
+  padding: 5px;
+
+>>>>>>> megangartner/master
 }
  
 header h1{
   font-size: 48px;
   font-weight: bold;
+<<<<<<< HEAD
  }
 
 h2{ 
@@ -43,6 +61,36 @@ h4 {
   font-weight: bold;
   font-style: underline;
   font-size: 18px;
+=======
+ }
+ 
+header h1{
+ 	font-size: 48px;
+ }
+
+h2{ 
+ 	font-size: 30px;
+ 	padding-top: 25px;
+ 	padding-bottom: 25px;
+ }
+
+h3 {
+	text-align: center;
+	font-size: 24px;
+	padding-bottom: 50px;
+  padding-top: 50px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+h4 {
+	text-align: center;
+ 	font-style: underline;
+ 	font-size: 18px;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+>>>>>>> megangartner/master
  }
 
 
@@ -51,11 +99,16 @@ h4 {
 }
 
 #about, #ingredients {
+<<<<<<< HEAD
   float: left;
   font-size: 14px;
   color: green;
   width: 350px;
   background-color: #ffffe5;
+=======
+	float: left;
+ 	font-size: 16px;
+>>>>>>> megangartner/master
  }
 
 /* 
@@ -64,17 +117,37 @@ h4 {
   should probably be closer to 20 than 100-200.
 */
  #ingredients {
+<<<<<<< HEAD
   margin-left: 250px;
   margin-right: 155px;
+=======
+  width:30%;
+ 	margin-left: 15%;
+ 	margin-right: 10%;
+>>>>>>> megangartner/master
 
  }
 
 #about {
+<<<<<<< HEAD
   margin-left: 160px;
+=======
+  width:30%;
+	margin-left: 15%;
+  margin-top:7%;
 }
 
+#about p {
+  padding: 3px;
+>>>>>>> megangartner/master
+}
+
+#about img{
+  width:100%;
+}
 
 #instructions {
+<<<<<<< HEAD
   clear:both;
   width:500px;
   text-align: left;
@@ -82,7 +155,33 @@ h4 {
   background-color: #ffffe5;
   margin-left: 410px;
   margin-top: 20px;
+=======
+	clear:right;
+	width:30%;
+	text-align: left;
+	float:right;
+	margin-right: 10%;
+	margin-top: 20px;
+>>>>>>> megangartner/master
 }
+
+form{
+  float:left;
+  width:100%;
+}
+
+span {
+  float:left;
+  width:90%;
+  margin-bottom:10px;
+}
+
+input {
+  float:left;
+  width:5%;
+  margin-bottom:10px;
+}
+
 
 #tabs {
   margin: 0;
@@ -97,16 +196,20 @@ h4 {
   position: relative;
   z-index: 500;
   margin: 0 1px;
+  padding: 3px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
 }
 
 #tabs li a {
   display: block;
-  padding: 6px 5px 0 5px;
+  padding: 5px 6px 0 6px;
   font-weight: 700;
   height: 20px;
   text-decoration: none;
   color: #fff;
   text-align: center;
+  font-size: 16px;
 }
 
 #tabs ul {
@@ -123,19 +226,23 @@ h4 {
   border-top: 1px solid #fff;
   width: 100%;
   white-space: nowrap;
+  padding: 5px;
 }
 
 #tabs ul a {
   display: block;
   height: 15px;
-  padding:  6px 5px;
+  padding:  10px;
   color: #fff;
-  text-align: left;
+  text-align: center;
+  font-size: 14px;
 }
 
 #nav a:hover {
   text-decoration: none;
-  background-color: #F86808;
+  background-color: gray;
+  float:left;
+  position: relative;
 }
 
 #instructions .item {

@@ -1,6 +1,13 @@
 body {
+<<<<<<< HEAD
   color: green;
     font: helvetica;
+=======
+	color: #669999;
+  background-image: url('../images/seamless_paper_texture.png');
+  background-repeat:repeat;
+  font-family: 'Handlee', cursive;
+>>>>>>> megangartner/master
 }
 
 /*I haven't figured out why this background isnt working yet*/
@@ -20,11 +27,20 @@ understand the Pseudo-elements that they're talking about*/
  }
 
 header {
+<<<<<<< HEAD
   text-align: center;
   margin-top: 50px;
   background-color: #ffffe5;
   margin-right: 155px;
   margin-left: 160px;
+=======
+	text-align: center;
+	margin-top: 50px;
+	margin-right: 155px;
+	margin-left: 160px;
+  outline: solid black 2px;
+  padding: 5px;
+>>>>>>> megangartner/master
 
 }
  
@@ -33,6 +49,7 @@ header {
   font-weight: bold;
  }
 
+<<<<<<< HEAD
  h2{ 
   font-size: 30px;
   font-weight: bold;
@@ -45,9 +62,17 @@ header {
   font-weight: bold;
   font-style: underline;
   font-size: 18px;
+=======
+ header h2 {
+  font-weight:bold;
+>>>>>>> megangartner/master
  }
 
+#carousel-example-generic{
+  margin-top: 50px;
+}
 
+<<<<<<< HEAD
  #about, #website, #homepics{
   float: left;
   font-size: 14px;
@@ -63,6 +88,24 @@ header {
  #website {
   margin-top: 50px;
  }
+=======
+.carousel {
+    margin: 0 auto;
+    width: 40%;
+}
+
+.carousel img {
+    width: 74%;
+    margin-left: 13%;
+}
+
+.carousel-caption{
+  font-size: 2.5em;
+  font-weight: bold;
+  text-shadow: 2px 2px 8px gray;
+  color:black;
+}
+>>>>>>> megangartner/master
 
 #tabs {
   margin: 0;
@@ -77,16 +120,20 @@ header {
   position: relative;
   z-index: 500;
   margin: 0 1px;
+  padding: 3px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
 }
 
 #tabs li a {
   display: block;
-  padding: 6px 5px 0 5px;
+  padding: 5px 6px 5px 6px;
   font-weight: 700;
   height: 20px;
   text-decoration: none;
   color: #fff;
   text-align: center;
+  font-size: 16px;
 }
 
 #tabs ul {
@@ -103,22 +150,45 @@ header {
   border-top: 1px solid #fff;
   width: 100%;
   white-space: nowrap;
+  padding: 5px;
 }
 
 #tabs ul a {
   display: block;
   height: 15px;
-  padding:  6px 5px;
+  padding:  10px;
   color: #fff;
-  text-align: left;
+  text-align: center;
+  font-size: 14px;
 }
 
 #nav a:hover {
   text-decoration: none;
-  background-color: #F86808;
+  background-color: gray;
+  float:left;
+  position: relative;
 }
 
+
+.about {
+  text-align: center;
+  font-size: 1.5em;
+  width:40%;
+  margin-left:30%;
+}
+
+.item img {
+  opacity: 0.5;
+  height: 500px;
+}
+
+<<<<<<< HEAD
 #tabs .done {
   color: #ccc;
   text-decoration: line-through;
 }
+=======
+.carousel-inner>.item>a>img{
+  height:300px;
+}
+>>>>>>> megangartner/master
